@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{asset('design/css/Bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('design/css/fontawesome.min.css')}}">
+    <title>blog</title>
+  </head>
+  <body>
+    @include('include.nav')
+  <div class="contanier">
+    @yield('content')
+  </div>   
+   <script src="{{asset('design/js/jq.js')}}" ></script>
+    <script src="{{asset('design/js/Bootstrap.min.js')}}" ></script>
+    <script src="{{asset('design/js/popper.min.js')}}" ></script>
+  </body>
+</html>
